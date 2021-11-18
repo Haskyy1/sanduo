@@ -1,0 +1,137 @@
+.container{
+    width: 1519px;
+    background-image: url("background.png");
+    margin:0 auto
+}
+.header-icon{
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 300px;
+    padding-bottom: 15px;
+}
+
+.header{
+    display: flex;
+    color: #FFDCA2;
+    background-color: #2C2C2C;
+    text-align:center;
+    width: 100%;
+}
+.header a:hover {
+    animation: hover 1s infinite steps(1);
+}
+@keyframes hover {
+    0% {color: #fadf06}
+}
+.about{
+    padding-left: 80px;
+    padding-top: 27px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+}
+
+.menu, .store, .franchise, .contact{
+    padding-left: 100px;
+    padding-top: 27px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+}
+
+.title{
+    font-weight:bolder;
+    font-size: 44px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+    color: #3E3E3E;
+}
+
+.area{
+    padding-left: 150px;
+    padding-right: 120px;
+    padding-top: 40px;
+    width: 200px;
+    height: 500px;
+}
+
+/**/
+.imgcontainer{
+    display: flex;
+    width: 1280px;
+    height: 250px;
+    margin-left: 120px;
+    margin-bottom: 80px;
+    justify-content: space-around;
+}
+.B1{
+    width: 414px;
+    height: 233px;
+    /*margin-left: 20px;*/
+    filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+}
+.B2B3{
+    width: 414px;
+    height: 233px;
+    /*margin-left: 20px;*/
+    filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+}
+.menuimg{
+    width: 1280px;
+    height: 909px;
+    border: 5px solid #3E3E3E;
+    box-sizing: border-box;
+    filter: drop-shadow(6px 6px 2px rgba(0, 0, 0, 0.25));
+    border-radius: 45px;
+    margin-left: 120px;
+    margin-bottom: 80px;
+    
+}
+/*footer*/
+.footer{
+    display: flex;
+    color: #FFDCA2;
+    background-color: #2C2C2C;
+    text-align:center;
+    width: 100%;
+}
+.footer-icon{
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 200px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+.email{
+    font-family: 'Roboto';
+    font-weight: 400px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align:left
+}
+
+.line1{
+    background-color: #FFDCA2;
+    width: 1000px;
+    height: 1px;
+}
+
+.copyright{
+    font-family: 'Roboto';
+    font-weight: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+}

@@ -1,0 +1,118 @@
+.container{
+    width: 1519px;
+    background-image: url(background.png);
+    margin:0 auto
+}
+
+.header-icon{
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 300px;
+    padding-bottom: 15px;
+}
+
+.header{
+    display: flex;
+    color: #FFDCA2;
+    background-color: #2C2C2C;
+    text-align:center;
+    font-family: 'Roboto';
+    font-weight: 400px;
+}
+.header a:hover {
+    animation: hover 1s infinite steps(1);
+}
+@keyframes hover {
+    0% {color: #fadf06}
+}
+
+.about{
+    padding-left: 80px;
+    padding-top: 27px;
+    font-size: 18px;
+}
+
+.menu, .store, .franchise, .contact{
+    padding-left: 100px;
+    padding-top: 27px;
+    font-size: 18px;
+}
+
+.title-stores{
+    font-weight:bolder;
+    font-size: 44px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+    color: #3E3E3E;
+}
+
+.nav{
+    display: flex;
+}
+
+.area{
+    padding-left: 150px;
+    padding-right: 120px;
+    padding-top: 40px;
+    width: 200px;
+    height: 500px;
+}
+
+.north, .central, .south, .east, .islands{
+    font-weight:bolder;
+    border-radius: 20px;
+    color: #FFDCA2;
+    font-size: 26px;
+    background-color: #2C2C2C;
+    padding-top: 13px;
+    padding-left: 48px;
+    padding-bottom: 10px;
+    margin-bottom:30px;
+}
+
+.p1, .p2, .p3, .p4, .p5 ,.p6{
+    padding-right: 100px;
+    padding-bottom: 60px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+}
+
+
+.footer{
+    display: flex;
+    color: #FFDCA2;
+    background-color: #2C2C2C;
+    text-align:center;
+    font-family: 'Roboto';
+    font-weight: 400px;
+}
+.footer-icon{
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 200px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+.email{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align:left
+}
+
+.line1{
+    background-color: #FFDCA2;
+    width: 1000px;
+    height: 1px;
+}
+
+.copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+}
